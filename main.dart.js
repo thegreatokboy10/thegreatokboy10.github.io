@@ -82889,12 +82889,16 @@ if(j.gbB(p)){o=k.a=J.h(J.h(j.h(p,0),"properties"),"aerialway")
 if(o==null){o=J.h(J.h(j.h(p,0),"properties"),"piste:type")
 k.a=o
 n=o}else n=o
-if(n==null)n=k.a=J.h(J.h(j.h(p,0),"properties"),"type")
+if(n==null){o=J.h(J.h(j.h(p,0),"properties"),"uses")
+k.a=o
+n=o}if(n==null)n=k.a=J.h(J.h(j.h(p,0),"properties"),"liftType")
 m=J.h(J.h(j.h(p,0),"properties"),"name")
 if(m==null)m="No name"
 l=k.b=J.h(J.h(j.h(p,0),"properties"),"piste:difficulty")
-if(l==null){k.b="N/A"
-j="N/A"}else j=l
+if(l==null){l=J.h(J.h(j.h(p,0),"properties"),"difficulty")
+k.b=l
+j=l}else j=l
+if(j==null)j=k.b="N/A"
 A.d5("onFeatureTap: "+A.k(n)+", "+A.k(m)+", "+A.k(j))
 j=q.c
 j.toString
