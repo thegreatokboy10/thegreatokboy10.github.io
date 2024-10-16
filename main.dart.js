@@ -90041,7 +90041,7 @@ q.aq(0,new A.amj(q,p))
 return A.F(null,r)}})
 return A.G($async$xF,r)},
 a37(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e="line-center",d={}
-if(a==null){A.cm("GeoJSON data is null in _addLiftSourceAndLayer")
+if(a==null){A.cm("GeoJSON data is null in _addSourceAndLayer")
 return}s=B.aw.ew(0,a)
 d.a=""
 r=J.atG(t.j.a(J.f(s,"features")),new A.amd(d))
@@ -90060,8 +90060,8 @@ k=3}else{g.e.push(p)
 r=d.a
 l=r+"-source"
 m=r+"-stroke-layer"
-k=2
-n=6
+k=3.5
+n=10.5
 o=0.5}r=d.a
 new A.amc(d,g).$7(r+"-source",r+"-layer",k,l,m,n,o)
 r=g.RG
@@ -90215,7 +90215,7 @@ a5=J.f(J.f(a7.h(l,0),"properties"),"type")
 a7=J.hK(a5)
 if(a7.j(a5,"run")){a7=n.RG
 a7.toString
-a7.pN("highlighted-feature","highlighted-layer",A.p7(null,"round",g,null,null,null,null,null,null,0.5,null,null,null,null,null,20,null))}else if(a7.j(a5,"lift")){a7=n.RG
+a7.pN("highlighted-feature","highlighted-layer",A.p7(null,"round",g,null,null,null,null,null,null,0.5,null,null,null,null,null,35,null))}else if(a7.j(a5,"lift")){a7=n.RG
 a7.toString
 a7.pN("highlighted-feature","highlighted-layer",A.p7(null,"round",A.aAb(n.ch),null,null,null,null,null,null,0.5,null,null,null,null,null,15,null))}a7=n.c
 a7.toString
@@ -90398,18 +90398,18 @@ p=p.p(s,"downhill")||p.p(s,"connection")}else p=!1
 return p}},
 $S:73}
 A.amc.prototype={
-$7(a,b,c,d,e,f,g){var s,r,q=this,p=null
+$7(a,b,c,d,e,f,g){var s,r,q=this,p=null,o="round"
 if(q.a.a==="lift"){s=q.b
 r=s.RG
-if(r!=null)r.pN(a,b,A.p7(p,p,A.a(["get","color"],t.s),p,p,p,p,p,p,p,p,p,p,p,p,c,p))
+if(r!=null)r.pN(a,b,A.p7(p,o,A.a(["get","color"],t.s),p,p,p,p,p,p,p,p,p,p,p,p,c,p))
 s.p1.push(b)
 s.w.push(b)}else{if(d!=null&&e!=null&&f!=null&&g!=null){s=q.b
 r=s.RG
-if(r!=null)r.pN(d,e,A.p7(p,p,A.a(["get","color"],t.s),p,p,p,p,p,p,g,p,p,p,p,p,f,p))
+if(r!=null)r.pN(d,e,A.p7(p,o,A.a(["get","color"],t.s),p,p,p,p,p,p,g,p,p,p,p,p,f,p))
 s.p1.push(e)
 s.f.push(e)}s=q.b
 r=s.RG
-if(r!=null)r.pN(a,b,A.p7(p,p,A.aAb(s.cx),p,p,p,p,p,p,p,p,p,p,p,p,c,p))
+if(r!=null)r.pN(a,b,A.p7(p,o,A.aAb(s.cx),p,p,p,p,p,p,p,p,p,p,p,p,c,p))
 s.f.push(b)}},
 $S:517}
 A.amz.prototype={

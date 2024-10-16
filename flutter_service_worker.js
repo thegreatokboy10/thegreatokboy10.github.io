@@ -20,7 +20,7 @@ const RESOURCES = {"favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "canvaskit/chromium/canvaskit.js": "671c6b4f8fcc199dcc551c7bb125f239",
 "canvaskit/chromium/canvaskit.js.symbols": "a012ed99ccba193cf96bb2643003f6fc",
 "canvaskit/canvaskit.js.symbols": "48c83a2ce573d9692e8d970e288d75f7",
-"main.dart.js": "bb659d193358e2990ac39c969eb55698",
+"main.dart.js": "b27d442366ee83148b937cf0e6593f68",
 "assets/FontManifest.json": "8e5198d096f0aa9bba5d59997e75d1df",
 "assets/NOTICES": "e5c882a67ce232fbf486eae0cae5c5c4",
 "assets/assets/fonts/NotoEmoji.ttf": "aca215e01cbbe3a587de8555269b9233",
@@ -36,7 +36,7 @@ const RESOURCES = {"favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "7496e0dc6d345227097a68639fa42314",
 "manifest.json": "7011bc3accd45839d0a044607bfea229",
 "flutter.js": "f393d3c16b631f36852323de8e583132",
-"flutter_bootstrap.js": "6f056212ac5a30f36701b58d78f29533"};
+"flutter_bootstrap.js": "044ac916ce9cb30e9151fbd09132c905"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
