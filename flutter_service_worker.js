@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "0d1c6f236a2435ba8bfe6170fc7c92e3",
+const RESOURCES = {"flutter_bootstrap.js": "f8bd2f5d44a2c1eb8c3f90bea91c119f",
 "version.json": "7496e0dc6d345227097a68639fa42314",
 "index.html": "d6d3dad9ec936979b5dcd2a1471d79eb",
 "/": "d6d3dad9ec936979b5dcd2a1471d79eb",
@@ -29,8 +29,8 @@ const RESOURCES = {"flutter_bootstrap.js": "0d1c6f236a2435ba8bfe6170fc7c92e3",
 "assets/assets/beidahu/runs.geojson": "7a94129d55c6e6561b54337a7a95f564",
 "assets/assets/beidahu/lifts.geojson": "3d8c0b8fd6809a7e0646cd15b09dcd7a",
 "assets/assets/fonts/NotoEmoji.ttf": "aca215e01cbbe3a587de8555269b9233",
-"assets/assets/palarinsal/runs.geojson": "e8f28bce331e30bb79be65b391088a0f",
-"assets/assets/palarinsal/lifts.geojson": "a19dbbf35d529477d22113e793ceb5c0",
+"assets/assets/palarinsal/runs.geojson": "8209cd941f1a9e22684f4ee388fabe84",
+"assets/assets/palarinsal/lifts.geojson": "4dbb98a239ee0aab960e22b22ee61548",
 "canvaskit/skwasm.js": "694fda5704053957c2594de355805228",
 "canvaskit/skwasm.js.symbols": "262f4827a1317abb59d71d6c587a93e2",
 "canvaskit/canvaskit.js.symbols": "48c83a2ce573d9692e8d970e288d75f7",
