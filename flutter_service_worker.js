@@ -3,10 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "99fa880feb14f9a73c6434c1ef7d47d4",
+const RESOURCES = {"flutter_bootstrap.js": "8b764646428ff26d76f35a57c528f8cd",
 "version.json": "7496e0dc6d345227097a68639fa42314",
-"index.html": "563051096629d5896f23b6f7fa8cb64e",
-"/": "563051096629d5896f23b6f7fa8cb64e",
+"index.html": "30fa42216918fdca0feab1d9666fcc0f",
+"/": "30fa42216918fdca0feab1d9666fcc0f",
 "main.dart.js": "1a5c39dff33b3ac6540db00a31e8e891",
 "flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -21,7 +21,7 @@ const RESOURCES = {"flutter_bootstrap.js": "99fa880feb14f9a73c6434c1ef7d47d4",
 "assets/AssetManifest.bin.json": "7f3605c1926f1e5c3a90d6198fbfbc45",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "assets/AssetManifest.bin": "3ca5b63cd441c3585b9a2e8b28b279e4",
-"assets/fonts/MaterialIcons-Regular.otf": "2225a7098502216c8f331c2a3aabbf21",
+"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
 "assets/assets/morzine/runs.geojson": "5204e7619de790a612894609697642d5",
 "assets/assets/morzine/lifts.geojson": "9d25538b606dafbd8a9c052fe2ffab89",
 "assets/assets/3valley/runs.geojson": "733a3a24260e9f316658c506ec36713a",
