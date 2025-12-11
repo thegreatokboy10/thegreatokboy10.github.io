@@ -107954,7 +107954,7 @@ var $async$Ac=A.v(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 h=t.N
 s=7
-return A.o(A.N_(A.ck("http://localhost:8899/api/team/"+a+"/meeting-points",0,null),A.x(["Content-Type","application/json"],h,h)),$async$Ac)
+return A.o(A.N_(A.ck("https://snownavi.ski/api/team/"+a+"/meeting-points",0,null),A.x(["Content-Type","application/json"],h,h)),$async$Ac)
 case 7:m=c
 if(m.b===200){h=m
 l=B.L.i3(0,A.kd(A.ka(h.e)).cX(0,h.w),null)
@@ -107988,7 +107988,7 @@ Dq(a,b,c,d,e,f){return this.az7(a,b,c,d,e,f)},
 az7(a,b,c,d,e,a0){var s=0,r=A.u(t.Pv),q,p=2,o,n=this,m,l,k,j,i,h,g,f
 var $async$Dq=A.v(function(a1,a2){if(a1===1){o=a2
 s=p}while(true)switch(s){case 0:p=4
-j=A.ck("http://localhost:8899/api/team/"+a0+"/meeting-points",0,null)
+j=A.ck("https://snownavi.ski/api/team/"+a0+"/meeting-points",0,null)
 i=t.N
 h=A.x(["Content-Type","application/json"],i,i)
 s=7
@@ -108025,7 +108025,7 @@ GD(a,b,c){return this.aKO(a,b,c)},
 aKO(a,b,c){var s=0,r=A.u(t.Pv),q,p=2,o,n=this,m,l,k,j,i,h,g,f
 var $async$GD=A.v(function(d,e){if(d===1){o=e
 s=p}while(true)switch(s){case 0:p=4
-j=A.ck("http://localhost:8899/api/team/"+c+"/meeting-points/"+b,0,null)
+j=A.ck("https://snownavi.ski/api/team/"+c+"/meeting-points/"+b,0,null)
 i=t.N
 h=A.x(["Content-Type","application/json"],i,i)
 s=7
@@ -108063,7 +108063,7 @@ var $async$E5=A.v(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return A.o(A.aR3(A.ck("http://localhost:8899/api/team/"+b+"/meeting-points/"+a,0,null),A.x(["Content-Type","application/json"],k,k)),$async$E5)
+return A.o(A.aR3(A.ck("https://snownavi.ski/api/team/"+b+"/meeting-points/"+a,0,null),A.x(["Content-Type","application/json"],k,k)),$async$E5)
 case 7:m=d
 k=m.b===200||m.b===204
 j=t._H
@@ -108095,7 +108095,7 @@ var $async$At=A.v(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return A.o(A.AB(A.ck("http://localhost:8899/api/team/"+b+"/meeting-points/"+a+"/activate",0,null),null,A.x(["Content-Type","application/json"],k,k)),$async$At)
+return A.o(A.AB(A.ck("https://snownavi.ski/api/team/"+b+"/meeting-points/"+a+"/activate",0,null),null,A.x(["Content-Type","application/json"],k,k)),$async$At)
 case 7:m=d
 k=t._H
 if(m.b===200){q=new A.e7(!0,null,null,k)
@@ -108126,7 +108126,7 @@ var $async$DJ=A.v(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return A.o(A.AB(A.ck("http://localhost:8899/api/team/"+a+"/meeting-points/clear-active",0,null),null,A.x(["Content-Type","application/json"],k,k)),$async$DJ)
+return A.o(A.AB(A.ck("https://snownavi.ski/api/team/"+a+"/meeting-points/clear-active",0,null),null,A.x(["Content-Type","application/json"],k,k)),$async$DJ)
 case 7:m=c
 k=t._H
 if(m.b===200){q=new A.e7(!0,null,null,k)
@@ -108486,7 +108486,7 @@ var $async$mR=A.v(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 i=t.N
 s=7
-return A.o(A.N_(A.ck("http://localhost:8899/api/check-permission?email="+a,0,null),A.x(["X-User-Email",a],i,i)),$async$mR)
+return A.o(A.N_(A.ck("https://snownavi.ski/api/check-permission?email="+a,0,null),A.x(["X-User-Email",a],i,i)),$async$mR)
 case 7:m=c
 if(m.b===200){i=m
 l=B.L.i3(0,A.kd(A.ka(i.e)).cX(0,i.w),null)
@@ -108520,7 +108520,7 @@ DZ(a,b,c){return this.aBV(a,b,c)},
 aBV(a,b,c){var s=0,r=A.u(t.R),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d
 var $async$DZ=A.v(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:p=4
-h=A.ck("http://localhost:8899/api/team",0,null)
+h=A.ck("https://snownavi.ski/api/team",0,null)
 g=t.N
 f=A.x(["Content-Type","application/json"],g,g)
 s=7
@@ -108558,7 +108558,7 @@ a7Y(a){var s=0,r=A.u(t.R),q,p=2,o,n=this,m,l,k,j,i,h,g,f
 var $async$kp=A.v(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.o(A.N_(A.ck("http://localhost:8899/api/team/"+a,0,null),null),$async$kp)
+return A.o(A.N_(A.ck("https://snownavi.ski/api/team/"+a,0,null),null),$async$kp)
 case 7:m=c
 if(m.b===200){h=m
 l=B.L.i3(0,A.kd(A.ka(h.e)).cX(0,h.w),null)
@@ -108593,7 +108593,7 @@ us(a,b,c){return this.ut(a,b,!1,c)},
 aGn(a,b,c,a0){var s=0,r=A.u(t.R),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d
 var $async$ut=A.v(function(a1,a2){if(a1===1){o=a2
 s=p}while(true)switch(s){case 0:p=4
-h=A.ck("http://localhost:8899/api/team/"+a0+"/join",0,null)
+h=A.ck("https://snownavi.ski/api/team/"+a0+"/join",0,null)
 g=t.N
 f=A.x(["Content-Type","application/json"],g,g)
 s=7
@@ -108636,7 +108636,7 @@ s=p}while(true)switch(s){case 0:p=4
 i=t.N
 m=A.x(["lat",e,"lng",a0],i,t.z)
 if(a!=null)J.b0(m,"accuracy",a)
-h=A.ck("http://localhost:8899/api/team/"+a2+"/member/"+c+"/location",0,null)
+h=A.ck("https://snownavi.ski/api/team/"+a2+"/member/"+c+"/location",0,null)
 i=A.x(["Content-Type","application/json"],i,i)
 s=7
 return A.o(A.AB(h,B.L.fh(m,null),i),$async$GG)
@@ -108669,7 +108669,7 @@ aGA(a,b){var s=0,r=A.u(t.B4),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$z3=A.v(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.o(A.aR3(A.ck("http://localhost:8899/api/team/"+b+"/member/"+a,0,null),null),$async$z3)
+return A.o(A.aR3(A.ck("https://snownavi.ski/api/team/"+b+"/member/"+a,0,null),null),$async$z3)
 case 7:m=d
 j=t.B4
 if(m.b===200){q=new A.cQ(!0,null,null,j)
@@ -108706,7 +108706,7 @@ m=A.x(["deviceId",a],g,t.z)
 if(c!=null)J.b0(m,"nickname",c)
 if(a0!=null)J.b0(m,"shareLocation",a0)
 if(b!=null)J.b0(m,"isLeader",b)
-f=A.ck("http://localhost:8899/api/team/"+a1+"/join",0,null)
+f=A.ck("https://snownavi.ski/api/team/"+a1+"/join",0,null)
 g=A.x(["Content-Type","application/json"],g,g)
 s=7
 return A.o(A.AB(f,B.L.fh(m,null),g),$async$v4)
@@ -108742,7 +108742,7 @@ a8_(a){var s=0,r=A.u(t.H8),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d
 var $async$mh=A.v(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.o(A.N_(A.ck("http://localhost:8899/api/team/by-device/"+a,0,null),null),$async$mh)
+return A.o(A.N_(A.ck("https://snownavi.ski/api/team/by-device/"+a,0,null),null),$async$mh)
 case 7:m=c
 if(m.b===200){f=m
 l=B.L.i3(0,A.kd(A.ka(f.e)).cX(0,f.w),null)
